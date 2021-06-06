@@ -138,12 +138,13 @@ header {
 }
 
 .hero-title {
-    position: absolute;
-    top: 220px;
-    height: 150px;
-    width: 100%;
-    left: 50%;
-    margin-left: -50%;
+    grid-column: 1/6;
+        width: 100%;
+        left: 50%;
+        margin-top: 160px;
+        margin-left: -50%;
+        position: absolute;
+        top: 150px;
 }
 
 .hero {
