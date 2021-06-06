@@ -1,0 +1,80 @@
+.taart-title {
+    font-family: dancing script;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 1.3em;
+    margin-top: .5em;
+    background: linear-gradient(to right, rgb(219, 102, 98) 20%, #fcbd90 40%, #d68851 60%, #fd6c04 80%, #d68851 60%, #fcbd90 40%, rgb(219, 102, 98) -70%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 6s ease-in infinite;
+    grid-column: 2/-2;
+    height: 75px;
+}
+
+@keyframes shine {
+    to {
+        background-position: 90% center;
+    }
+}
+
+.taart-select-section1 {
+    grid-column: 2/-2;
+    background-image: url(img/bolo\ di\ kashupete.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.taart-select-section2 {
+    grid-column: 2/-2;
+    background-image: url(img/bolo\ di\ ponche\ crema.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.taart-select-section3 {
+    grid-column: 2/-2;
+    background-image: url(img/regenboog\ taart.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.taart-select-section4 {
+    grid-column: 2/-2;
+    background-image: url(img/Luxe\ taart.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:800px) {
+    .nav-item a {
+        font-family: dancing script, Georgia, Times, 'Times New Roman', serif;
+    }
+    .taart-select-section1 {
+        grid-column: 2/3;
+        height: 300px;
+    }
+    .taart-select-section2 {
+        grid-column: 3/4;
+        height: 300px;
+    }
+    .taart-select-section3 {
+        grid-column: 4/5;
+        height: 300px;
+    }
+    .taart-select-section4 {
+        grid-column: 2/3;
+        height: 300px;
+    }
+    .taarten-container {
+        height: 500px;
+    }
+}

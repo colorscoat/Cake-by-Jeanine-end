@@ -1,0 +1,22 @@
+.contact-form {
+    grid-column: 2/-2;
+}
+
+.hero-body-contact {
+    margin-bottom: 2em;
+    grid-column: 2/-2;
+}
+
+.contact-btn {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    background: linear-gradient( rgb(245, 234, 204) 30%, rgb(195, 206, 35));
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.contact-btn p {
+    font-size: 1.5em;
+    margin: auto auto;
+}
