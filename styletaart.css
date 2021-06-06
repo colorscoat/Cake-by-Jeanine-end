@@ -204,7 +204,7 @@ Taarten page
     
     .lekkernij-select-section4 {
         grid-column: 2/-2;
-        background-image: url(img/img-lekkernij/panseiku.png);
+        background-image: url(./img/img-lekkernij/panseiku.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
