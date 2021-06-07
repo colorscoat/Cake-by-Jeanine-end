@@ -624,13 +624,13 @@ header {
         width: 500px;
     }
     .hero-title {
-        grid-column: 1/6;
-        width: 100%;
-        left: 50%;
-        margin-top: 160px;
-        margin-left: -50%;
-        position: absolute;
-        margin-top:160px;
+         grid-column: 1/6;
+                                    width: 100%;
+                                    left: 50%;
+                                    margin-top: 160px;
+                                    margin-left: -50%;
+                                    position: absolute;
+                                    top: 150px;
     }
     .hero-btn {
         position: absolute;
@@ -772,7 +772,7 @@ header {
         display: flex;
         justify-content: flex-start;
         margin-top: 2em;
-    }
+    } 
     .main-grid {
         display: grid;
         grid-template-columns: minmax(4em, 1fr) repeat(3, minmax(0px, 500px)) minmax(4em, 1fr);
