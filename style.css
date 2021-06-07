@@ -217,7 +217,13 @@ header {
     cursor: pointer;
     width: 250px;
     height: 50px;
-    font-family: 'dancing script,Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'dancing script,Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;top: 550px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+     width: 100%;
 }
 
 .hero-btn p {
